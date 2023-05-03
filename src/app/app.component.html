@@ -1,7 +1,5 @@
-<app-component-overview></app-component-overview>
+<button (click)="switchLanguage('en')">English</button>
+<button (click)="switchLanguage('fr')">French</button>
 
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
--->
+<h1>{{ 'HELLO' | translate }}</h1>
+<p>{{ 'WELCOME' | translate }}</p>
